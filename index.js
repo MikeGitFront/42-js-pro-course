@@ -1,1 +1,1 @@
-alert('Hello_world')
+alert('Hello world')
