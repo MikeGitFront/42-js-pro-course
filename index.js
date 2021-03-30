@@ -1,1 +1,1 @@
-alert('пока')
+alert('Hello_world')
