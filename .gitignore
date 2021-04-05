@@ -1,1 +1,4 @@
-private.js
+/.idea/
+node_modules
+*.final.*
+coverage
