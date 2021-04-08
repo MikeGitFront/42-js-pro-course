@@ -2,7 +2,7 @@ import { FormHandler, isValid, sendData } from './functions'
 
 const formHandler = new FormHandler(isValid, (name) => sendData(name, (name) => localStorage.setItem('name', name)))
 
-const createFormHtml = document => {
+export const createFormHtml = document => {
   const bodyElement = document.querySelector('body')
   const formElement = document.createElement('form')
   formElement.classList.add('form')

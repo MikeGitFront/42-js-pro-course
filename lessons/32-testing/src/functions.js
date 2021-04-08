@@ -1,6 +1,6 @@
 export const isValid = (name = '') => {
-  if (name.trim().length > 0) {
-    return name.trim() === 'Alex'
+  if (name.length > 0) {
+    return name === 'Alex'
   }
   return false
 }
@@ -10,12 +10,12 @@ export const sendData = (name, save) => {
 }
 
 export class FormHandler {
-  constructor (validateFn, sendDataFn) {
+  constructor(validateFn, sendDataFn) {
     this.validateFn = validateFn;
     this.sendDataFn = sendDataFn;
   }
 
-  onSubmit (name) {
+  onSubmit(name) {
     if (this.validateFn(name)) {
       this.sendDataFn(name)
     }

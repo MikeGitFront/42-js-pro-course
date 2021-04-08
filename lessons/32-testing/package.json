@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "serve dist -p 3030",
+    "coverage": "serve coverage -p 8080",
     "build": "webpack",
     "test": "jest --config=./jest.config.js",
     "test:e2e": "jest --config=./e2e/jest.config.js"
