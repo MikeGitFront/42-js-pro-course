@@ -1,4 +1,5 @@
 // import functions from your package
-const { smartSearch } = require('[NAME_OF_YOUR_PACKAGE]')
+const { smartSearch, notVerySmartSearch } = require('onefunc-package');
 
-console.log(smartSearch(['Smith', 'John'], 'John'))
+console.log(smartSearch(['Smith', 'John'], 'John'));
+console.log(notVerySmartSearch(['Smith', 'John'], 'John'));
